@@ -13,7 +13,8 @@ input_layer = tf.keras.Input(shape=input_shape)
 
 sliced_layer = input_layer[:, :, 1:3, :]
 
-n_layers = 4
+# the model needs to be conveyed with the specified number of layers
+n_layers = 4 
 
 output_list = []
 
